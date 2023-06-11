@@ -1,0 +1,85 @@
+.pagination .page-item .page-link,
+.pagination .dark-page-item .dark-page-link,
+.pagination .previous-item .previous-link,
+.pagination .next-item .next-link,
+.pagination .dark-previous-item .dark-previous-link,
+.pagination .dark-next-item .dark-next-link {
+    border-radius: 5px;
+    margin-right: 0.3rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+}
+.pagination .page-item .page-link {
+    width: 36px;
+    font-size: large;
+    padding: 0.15rem 0.8rem;
+    border: #569daa 1px solid;
+    color: #569daa;
+}
+.pagination .dark-page-item .dark-page-link {
+    width: 36px;
+    font-size: large;
+    padding: 0.15rem 0.8rem;
+    border: #438964 1px solid;
+    color: #438964;
+}
+.pagination .previous-item .previous-link,
+.pagination .next-item .next-link {
+    border: #569daa 1px solid;
+    color: #569daa;
+    font-size: xx-large;
+    width: 35px;
+}
+.pagination .dark-previous-item .dark-previous-link,
+.pagination .dark-next-item .dark-next-link {
+    border: #438964 1px solid;
+    color: #438964;
+    font-size: xx-large;
+    width: 35px;
+}
+.pagination .page-item.previous .page-link,
+.pagination .page-item.next .page-link,
+.pagination .page-item.break .page-link .pagination .dark-page-item.previous .dark-page-link,
+.pagination .dark-page-item.next .dark-page-link,
+.pagination .dark-page-item.break .dark-page-link {
+    border-color: transparent;
+}
+.pagination .page-item.active .page-link {
+    border-color: transparent;
+    color: white;
+    font-weight: 600;
+    font-size: large;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #569daa;
+}
+
+.pagination .dark-page-item.active .dark-page-link {
+    background-color: #438964;
+    color: white;
+}
+.pagination .page-item.disabled .page-link,
+.pagination .dark-page-item.disabled .dark-page-link {
+    color: grey;
+}
+.pagination .page-item.disable,
+.pagination .page-item.disabled .page-link {
+    cursor: default;
+}
+
+.pagination .previous-item.disabled .previous-link,
+.pagination .next-item.disabled .next-link,
+.pagination .dark-previous-item.disabled .dark-previous-link,
+.pagination .dark-next-item.disabled .dark-next-link {
+    color: grey;
+    border: 1px solid grey;
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+.pagination .page-item.disable,
+.pagination .page-item.disabled .page-link .pagination .dark-page-item.disable,
+.pagination .dark-page-item.disabled .dark-page-link {
+    cursor: default;
+}
